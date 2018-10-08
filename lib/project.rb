@@ -7,6 +7,7 @@ class Project
   end 
   
   def add_backer(backer)
+    self.backers_array << backer
     
   end 
   
