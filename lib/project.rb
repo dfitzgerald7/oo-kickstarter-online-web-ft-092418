@@ -3,6 +3,7 @@ class Project
   
   def initialize(title)
     self.title = title 
+    self.backers_array = []
   end 
   
   def add_backer(backer)
